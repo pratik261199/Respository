@@ -1,0 +1,25 @@
+{
+  "header": {
+    "address": 1234567890,
+    "enterpriseIdfier": " TESTSURVEY ",
+    "sessionId": "weqe2312",
+    "source": "1234-123-ABC-12345"
+  },
+  "messageBody": {
+    "message": {
+      "messageSettings": {},
+      "messageText": "This is a sample introduction text",
+      "messageType": "NO_INPUT_REQUIRED"
+    },
+    "nextMessagesSequence": [
+      {
+        "messageSettings": {},
+        "messageText": "This is a sample text for question 1",
+        "messageType": "INPUT_REQUIRED"
+      }
+    ],
+    "surveySettings": {
+      "surveyExpiryInDays": 7
+    }
+  }
+}
